@@ -1,0 +1,133 @@
+section.header {
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid purple;
+    width: 100%;
+    border-bottom: 2px solid grey;
+}
+a.headerlinks {
+    text-align: center;
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    font-size: large;
+    text-decoration: none;
+    width: 100%;
+    color: grey;
+}
+
+img.selfportrait {
+    border-radius: 50%;
+    justify-content: center;
+    width: 225px;
+    height: 225px;
+    margin: auto;
+    max-width: 100%;
+}
+
+section.info {
+    display: flex;
+}
+
+div.leftside {
+    width: 30%;
+    text-align: center;
+    border-right: 1px solid grey;
+    border-bottom: 80px;
+    padding: 40px;
+}
+
+div.rightside {
+    width: 70%;
+    text-align: left;
+    padding: 40px;
+}
+
+div.progress {
+    display: flex;
+    flex-direction: column;
+}
+
+progress {
+    height: 40px;
+    width: 100%;
+}
+
+p.righttitle {
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+p.name {
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+strong.email {
+    color: purple;
+    max-width: 100%;
+}
+
+div.lists {
+    display: flex;
+    justify-content: flex-start;
+}
+
+ul.left {
+    flex: 1;
+    list-style: none;
+    margin: auto;
+    padding: auto;
+}
+
+ul.right {
+    flex: 10;
+    list-style: none;
+    margin: auto;
+    padding: auto;
+}
+
+li.interests {
+    padding: 7.5px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.leftside {
+        border-bottom: 100%;
+        width: auto;
+    }
+
+    div.rightside {
+        border-top: 0.5px solid black;
+        border-left: 0px;
+        width: 100%;
+    }
+}
+
+footer {
+    background-color: lightgrey;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 80px;
+    top: 100px;
+}
+
+footer.foot {
+    padding-top: 15px;
+}
+
+
+
